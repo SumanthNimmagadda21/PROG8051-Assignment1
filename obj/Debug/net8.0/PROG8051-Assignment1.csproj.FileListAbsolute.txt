@@ -1,0 +1,14 @@
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/bin/Debug/net8.0/PROG8051-Assignment1
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/bin/Debug/net8.0/PROG8051-Assignment1.deps.json
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/bin/Debug/net8.0/PROG8051-Assignment1.runtimeconfig.json
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/bin/Debug/net8.0/PROG8051-Assignment1.dll
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/bin/Debug/net8.0/PROG8051-Assignment1.pdb
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.AssemblyInfoInputs.cache
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.AssemblyInfo.cs
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.csproj.CoreCompileInputs.cache
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.dll
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/refint/PROG8051-Assignment1.dll
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.pdb
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/PROG8051-Assignment1.genruntimeconfig.cache
+/Users/sumanthchowdhary/Documents/Test..sh/prog8051/PROG8051-Assignment1/obj/Debug/net8.0/ref/PROG8051-Assignment1.dll
