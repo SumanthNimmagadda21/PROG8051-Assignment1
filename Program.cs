@@ -34,6 +34,13 @@ namespace VirtualPetApp
             hunger = Math.Min(10, hunger + 1);
             Console.WriteLine(name + " had fun playing! Happiness increased, hunger increased slightly.");
         }
+
+        public void Rest()
+        {
+            health = Math.Min(10, health + 2);
+            happiness = Math.Max(1, happiness - 1);
+            Console.WriteLine(name + " is resting. Health improved, happiness slightly decreased.");
+        }
         
     }
 
