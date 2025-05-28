@@ -41,7 +41,33 @@ namespace VirtualPetApp
             happiness = Math.Max(1, happiness - 1);
             Console.WriteLine(name + " is resting. Health improved, happiness slightly decreased.");
         }
-        
+
+        public void ShowStatus()
+        {
+            Console.WriteLine("\n--- " + name + "'s Status ---");
+            Console.WriteLine("Hunger: " + hunger + "/10");
+            Console.WriteLine("Happiness: " + happiness + "/10");
+            Console.WriteLine("Health: " + health + "/10");
+
+            if (hunger >= 9)
+                Console.WriteLine("⚠️ Warning: Hunger is very high!");
+            if (happiness <= 2)
+                Console.WriteLine("⚠️ Warning: Happiness is very low!");
+            if (health <= 2)
+                Console.WriteLine("⚠️ Warning: Health is very low!");
+
+            if (hunger >= 10 || happiness <= 1)
+            {
+                health = Math.Max(1, health - 1);
+                Console.WriteLine("⚠️ " + name + "'s health is deteriorating due to neglect.");
+            }
+        }
+
+        public void TimePasses()
+        {
+            hunger = Math.Min(10, hunger + 1);
+            happiness = Math.Max(1, happiness - 1);
+        }
     }
 
     class Program
