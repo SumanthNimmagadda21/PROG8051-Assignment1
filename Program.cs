@@ -68,6 +68,54 @@ namespace VirtualPetApp
             hunger = Math.Min(10, hunger + 1);
             happiness = Math.Max(1, happiness - 1);
         }
+
+        class Program
+        {
+            static void Main()
+            {
+                Console.WriteLine("Welcome to the Virtual Pet Simulator!");
+                Console.Write("Choose your pet type (cat/dog/rabbit): ");
+                string type = Console.ReadLine();
+
+                Console.Write("Give your pet a name: ");
+                string name = Console.ReadLine();
+
+                VirtualPet pet = new VirtualPet(name, type);
+
+                Console.WriteLine("\n🎉 You adopted a " + type + " named " + name + "!\n");
+
+                bool playing = true;
+
+                while (playing)
+                {
+                    pet.ShowStatus();
+                    Console.WriteLine("\nWhat would you like to do?");
+                    Console.WriteLine("1. Feed");
+                    Console.WriteLine("2. Play");
+                    Console.WriteLine("3. Rest");
+                    Console.WriteLine("4. Exit");
+
+                    Console.Write("Enter your choice: ");
+                    string choice = Console.ReadLine();
+
+                    if (choice == "1")
+                        pet.Feed();
+                    else if (choice == "2")
+                        pet.Play();
+                    else if (choice == "3")
+                        pet.Rest();
+                    else if (choice == "4")
+                    {
+                        playing = false;
+                        Console.WriteLine("Thanks for playing! Bye!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid choice. Try again.");
+                    }
+                }
+            }
+        }
     }
 
     class Program
