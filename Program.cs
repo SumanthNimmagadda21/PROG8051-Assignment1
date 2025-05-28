@@ -15,13 +15,26 @@ namespace VirtualPetApp
             name = petName;
             type = petType;
         }
-        
+
         public void Feed()
         {
             hunger = Math.Max(1, hunger - 2);
             health = Math.Min(10, health + 1);
             Console.WriteLine(name + " enjoyed the food! Hunger decreased, health improved.");
         }
+        public void Play()
+        {
+            if (hunger >= 9)
+            {
+                Console.WriteLine(name + " is too hungry to play!");
+                return;
+            }
+
+            happiness = Math.Min(10, happiness + 2);
+            hunger = Math.Min(10, hunger + 1);
+            Console.WriteLine(name + " had fun playing! Happiness increased, hunger increased slightly.");
+        }
+        
     }
 
     class Program
