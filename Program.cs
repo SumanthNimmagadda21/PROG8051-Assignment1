@@ -82,8 +82,12 @@ namespace VirtualPetApp
     {
         static void Main()
         {
-            Console.WriteLine("Welcome to the Virtual Pet Simulator!");
+            Console.WriteLine("🐾 Welcome to the Virtual Pet Simulator! 🐾");
+            Console.WriteLine("Take care of your pet by feeding, playing, and resting.");
+            Console.WriteLine("Keep an eye on its hunger, happiness, and health!\n");
+
             Console.Write("Choose your pet type (cat/dog/rabbit): ");
+            
             string type = Console.ReadLine();
 
             Console.Write("Give your pet a name: ");
